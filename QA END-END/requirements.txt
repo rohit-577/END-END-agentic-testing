@@ -1,0 +1,32 @@
+# Core libraries
+openai>=1.6.0
+python-dotenv
+tqdm
+pytest #new
+pytest-json-report
+
+#llm
+langgraph
+crewai
+
+# Browser automation
+playwright>=1.43.0
+
+# Screenshot and image diffing
+Pillow
+imagehash
+
+# HTML parsing and crawling
+beautifulsoup4
+lxml
+requests
+
+# Optional: For structured logging and markdown reports
+rich
+markdown2
+
+# Optional: CLI enhancements
+click
+
+# Optional: For JSON schema validation (if needed)
+jsonschema

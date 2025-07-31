@@ -1,0 +1,15 @@
+{
+  "url": "https://task-manager-app-nu4y.onrender.com/",
+  "autocrawl": false,
+  "flows": [
+    {
+      "page": "login",
+      "actions": [
+        {"type": "fill", "selector": "#username", "value": "dummy123"},
+        {"type": "fill", "selector": "#password", "value": "dummy123"},
+        {"type": "click", "selector": "#login-button"}
+      ],
+      "expected_result": {"url": "https://task-manager-app-nu4y.onrender.com/home"}
+    }
+  ]
+}
