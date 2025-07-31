@@ -1,5 +1,5 @@
 {
-  "url": "https://task-manager-app-nu4y.onrender.com/",
+  "url": "sample app",
   "autocrawl": false,
   "flows": [
     {
@@ -9,7 +9,7 @@
         {"type": "fill", "selector": "#password", "value": "dummy123"},
         {"type": "click", "selector": "#login-button"}
       ],
-      "expected_result": {"url": "https://task-manager-app-nu4y.onrender.com/home"}
+      "expected_result": {"url": "sampleapp/home"}
     }
   ]
 }
